@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <button>Focusable element</button>
+    <div class="row">
+      <button id="btnHideIframe">Hide iframe</button>
+      <button id="btnFocusLink">Set Focus to link</button>
+    </div>
+    <div class="row">
+      <a href="#" id="link">Link to recieve a focus</a>
+    </div>
     <p>
       iframe with input:
     </p>
-    <iframe src="./descendant.html" frameborder="0"></iframe>
+    <iframe id="iframe" src="./descendant.html" frameborder="0"></iframe>
+    <script src="./index.js" defer></script>
   </body>
 </html>

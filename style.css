@@ -4,3 +4,10 @@
 iframe {
   border: 1px solid grey;
 }
+.row {
+  margin: 20px 0;
+}
+.is-hidden {
+  display: none;
+  visibility: hidden;
+}
